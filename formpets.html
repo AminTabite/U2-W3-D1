@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rubrica & OOP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <main>
+      <h1 class="text-center light">Registro Animali</h1>
+      <div class="container">
+        <div class="row justify-content-center mt-5">
+          <div class="col col-12 col-md-6">
+            <form id="rubrica-form">
+              <div class="mb-3">
+                <label for="petname" class="form-label">Nome dell'animale domestico</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="petname"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="ownername" class="form-label">Nome del padrone</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="ownername"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="species" class="form-label">Specie</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="species"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="Breed" class="form-label">Razza</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Breed"
+                  required
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="privacy"
+                  required
+                />
+                <label class="form-check-label" for="privacy">Privacy Policy</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Salva</button>
+            </form>
+
+            <div id="pet-list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./formpet.js"></script>
+  </body>
+</html>
