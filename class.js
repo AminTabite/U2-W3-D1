@@ -3,7 +3,7 @@ class User {
 constructor(_firstName,_lastName,_age,_location) {
 
     this.firstName=_firstName
-     this.lastNameName=_lastName
+     this.lastName=_lastName
       this.age=_age
        this.location=_location
 }
@@ -19,7 +19,7 @@ return `Michael é piú vecchio di Jason`
 const x = new User(
   'Michael',
   'Myers',
-  '67',
+  67,
   'Haddonfield',
 )
 
@@ -27,7 +27,7 @@ const x = new User(
 const y = new User(
   'Jason',
   'Voorhees',
-  '79',
+  79,
   'New Jersey',
 )
 
